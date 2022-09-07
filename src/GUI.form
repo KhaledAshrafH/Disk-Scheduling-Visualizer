@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="GUI">
+  <grid id="27dc6" binding="MainPanel" layout-manager="GridBagLayout">
+    <constraints>
+      <xy x="86" y="24" width="729" height="458"/>
+    </constraints>
+    <properties>
+      <autoscrolls value="true"/>
+      <font name="Courier New" size="24" style="1"/>
+      <foreground color="-1"/>
+      <inheritsPopupMenu value="false"/>
+      <visible value="true"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <component id="e9aa" class="javax.swing.JLabel" binding="FirstLabel">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="5" vsize-policy="3" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="1.0" weighty="1.0"/>
+        </constraints>
+        <properties>
+          <background color="-2102286"/>
+          <enabled value="false"/>
+          <font name="Courier New" size="24" style="1"/>
+          <horizontalAlignment value="0"/>
+          <horizontalTextPosition value="0"/>
+          <text value="Disk Scheduling Algorithms"/>
+        </properties>
+      </component>
+      <grid id="5d43b" binding="SecondPanel" layout-manager="GridLayoutManager" row-count="8" column-count="5" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="1" column="0" row-span="3" col-span="1" vsize-policy="3" hsize-policy="3" anchor="9" fill="0" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="10.0" weighty="5.0" ipadx="10" ipady="5"/>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="e781e" class="javax.swing.JRadioButton" binding="C_LOOK">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="2" vsize-policy="7" hsize-policy="7" anchor="9" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <enabled value="true"/>
+              <hideActionText value="false"/>
+              <horizontalAlignment value="2"/>
+              <horizontalTextPosition value="4"/>
+              <selected value="false"/>
+              <text value="C-LOOK"/>
+              <verticalAlignment value="0"/>
+            </properties>
+          </component>
+          <component id="b0aba" class="javax.swing.JRadioButton" binding="LOOK">
+            <constraints>
+              <grid row="2" column="0" row-span="1" col-span="2" vsize-policy="7" hsize-policy="7" anchor="9" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <horizontalAlignment value="2"/>
+              <horizontalTextPosition value="4"/>
+              <selected value="false"/>
+              <text value="LOOK"/>
+              <verticalAlignment value="0"/>
+            </properties>
+          </component>
+          <component id="963d9" class="javax.swing.JRadioButton" binding="Scan">
+            <constraints>
+              <grid row="3" column="0" row-span="1" col-span="2" vsize-policy="7" hsize-policy="7" anchor="9" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <horizontalAlignment value="2"/>
+              <horizontalTextPosition value="4"/>
+              <selected value="false"/>
+              <text value="Scan"/>
+              <verticalAlignment value="0"/>
+            </properties>
+          </component>
+          <component id="a019d" class="javax.swing.JRadioButton" binding="C_Scan">
+            <constraints>
+              <grid row="4" column="0" row-span="1" col-span="2" vsize-policy="7" hsize-policy="7" anchor="9" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <horizontalAlignment value="2"/>
+              <horizontalTextPosition value="4"/>
+              <selected value="false"/>
+              <text value="C-Scan"/>
+              <verticalAlignment value="0"/>
+            </properties>
+          </component>
+          <component id="5c435" class="javax.swing.JRadioButton" binding="FCFS">
+            <constraints>
+              <grid row="5" column="0" row-span="1" col-span="2" vsize-policy="7" hsize-policy="7" anchor="9" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <horizontalAlignment value="2"/>
+              <horizontalTextPosition value="4"/>
+              <selected value="false"/>
+              <text value="FCFS"/>
+              <verticalAlignment value="0"/>
+            </properties>
+          </component>
+          <component id="74855" class="javax.swing.JRadioButton" binding="SSTF">
+            <constraints>
+              <grid row="6" column="0" row-span="1" col-span="2" vsize-policy="7" hsize-policy="7" anchor="9" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <horizontalAlignment value="2"/>
+              <horizontalTextPosition value="4"/>
+              <selected value="false"/>
+              <text value="SSTF"/>
+              <verticalAlignment value="0"/>
+            </properties>
+          </component>
+          <component id="5a39f" class="javax.swing.JRadioButton" binding="OPTIMIZED">
+            <constraints>
+              <grid row="7" column="0" row-span="1" col-span="2" vsize-policy="7" hsize-policy="7" anchor="9" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <horizontalAlignment value="2"/>
+              <horizontalTextPosition value="4"/>
+              <selected value="false"/>
+              <text value="OPTIMIZED"/>
+              <verticalAlignment value="0"/>
+            </properties>
+          </component>
+          <component id="f3774" class="javax.swing.JComboBox" binding="CheckC_Scan">
+            <constraints>
+              <grid row="4" column="2" row-span="1" col-span="2" vsize-policy="0" hsize-policy="2" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <editable value="true"/>
+              <enabled value="true"/>
+              <font name="Courier New" size="16" style="1"/>
+              <model>
+                <item value="Right"/>
+                <item value="Left"/>
+              </model>
+            </properties>
+          </component>
+          <component id="bd3d4" class="javax.swing.JComboBox" binding="CheckC_Look">
+            <constraints>
+              <grid row="1" column="2" row-span="1" col-span="2" vsize-policy="0" hsize-policy="2" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <editable value="true"/>
+              <enabled value="true"/>
+              <font name="Courier New" size="16" style="1"/>
+              <model>
+                <item value="Right"/>
+                <item value="Left"/>
+              </model>
+            </properties>
+          </component>
+          <component id="34b9" class="javax.swing.JComboBox" binding="CheckLook">
+            <constraints>
+              <grid row="2" column="2" row-span="1" col-span="2" vsize-policy="0" hsize-policy="2" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <editable value="true"/>
+              <enabled value="true"/>
+              <font name="Courier New" size="16" style="1"/>
+              <model>
+                <item value="Right"/>
+                <item value="Left"/>
+              </model>
+            </properties>
+          </component>
+          <component id="3758c" class="javax.swing.JComboBox" binding="CheckScan">
+            <constraints>
+              <grid row="3" column="2" row-span="1" col-span="2" vsize-policy="0" hsize-policy="2" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <editable value="true"/>
+              <enabled value="true"/>
+              <font name="Courier New" size="16" style="1"/>
+              <model>
+                <item value="Right"/>
+                <item value="Left"/>
+              </model>
+            </properties>
+          </component>
+          <component id="310ce" class="javax.swing.JFormattedTextField" binding="FieldC_Look">
+            <constraints>
+              <grid row="1" column="4" row-span="1" col-span="1" vsize-policy="7" hsize-policy="7" anchor="8" fill="0" indent="0" use-parent-layout="false">
+                <preferred-size width="30" height="-1"/>
+              </grid>
+            </constraints>
+            <properties/>
+          </component>
+          <component id="69854" class="javax.swing.JFormattedTextField" binding="FieldScan">
+            <constraints>
+              <grid row="3" column="4" row-span="1" col-span="1" vsize-policy="7" hsize-policy="7" anchor="8" fill="0" indent="0" use-parent-layout="false">
+                <preferred-size width="30" height="-1"/>
+              </grid>
+            </constraints>
+            <properties/>
+          </component>
+          <component id="7b1f3" class="javax.swing.JFormattedTextField" binding="FieldC_Scan">
+            <constraints>
+              <grid row="4" column="4" row-span="1" col-span="1" vsize-policy="7" hsize-policy="7" anchor="8" fill="0" indent="0" use-parent-layout="false">
+                <preferred-size width="30" height="-1"/>
+              </grid>
+            </constraints>
+            <properties/>
+          </component>
+          <component id="8329d" class="javax.swing.JFormattedTextField" binding="FieldFCFS">
+            <constraints>
+              <grid row="5" column="2" row-span="1" col-span="2" vsize-policy="7" hsize-policy="7" anchor="8" fill="0" indent="0" use-parent-layout="false">
+                <preferred-size width="30" height="-1"/>
+              </grid>
+            </constraints>
+            <properties/>
+          </component>
+          <component id="47394" class="javax.swing.JFormattedTextField" binding="FieldSSTF">
+            <constraints>
+              <grid row="6" column="2" row-span="1" col-span="2" vsize-policy="7" hsize-policy="7" anchor="8" fill="0" indent="0" use-parent-layout="false">
+                <preferred-size width="30" height="-1"/>
+              </grid>
+            </constraints>
+            <properties/>
+          </component>
+          <component id="896db" class="javax.swing.JFormattedTextField" binding="FieldLook">
+            <constraints>
+              <grid row="2" column="4" row-span="1" col-span="1" vsize-policy="7" hsize-policy="7" anchor="8" fill="0" indent="0" use-parent-layout="false">
+                <preferred-size width="30" height="-1"/>
+              </grid>
+            </constraints>
+            <properties/>
+          </component>
+          <component id="f543e" class="javax.swing.JFormattedTextField">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="7" hsize-policy="7" anchor="8" fill="0" indent="0" use-parent-layout="false">
+                <preferred-size width="30" height="-1"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-1181441"/>
+              <caretColor color="-1"/>
+              <disabledTextColor color="-16777216"/>
+              <editable value="false"/>
+              <enabled value="false"/>
+              <foreground color="-16777216"/>
+              <text value="Start"/>
+            </properties>
+          </component>
+          <component id="493e4" class="javax.swing.JFormattedTextField" binding="StartC">
+            <constraints>
+              <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="7" hsize-policy="7" anchor="8" fill="0" indent="0" use-parent-layout="false">
+                <preferred-size width="30" height="-1"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-1049345"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="efeb3" class="javax.swing.JFormattedTextField" binding="EndC">
+            <constraints>
+              <grid row="0" column="3" row-span="1" col-span="1" vsize-policy="7" hsize-policy="7" anchor="8" fill="0" indent="0" use-parent-layout="false">
+                <preferred-size width="30" height="-1"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-1049345"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="5640" class="javax.swing.JFormattedTextField">
+            <constraints>
+              <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="7" hsize-policy="7" anchor="8" fill="0" indent="0" use-parent-layout="false">
+                <preferred-size width="30" height="-1"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-1181441"/>
+              <caretColor color="-1"/>
+              <disabledTextColor color="-16777216"/>
+              <editable value="false"/>
+              <enabled value="false"/>
+              <foreground color="-16777216"/>
+              <text value="End"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <component id="155bd" class="javax.swing.JButton" binding="CalculateButton">
+        <constraints>
+          <grid row="3" column="3" row-span="1" col-span="1" vsize-policy="7" hsize-policy="7" anchor="4" fill="0" indent="10" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0" ipadx="20" ipady="10"/>
+        </constraints>
+        <properties>
+          <enabled value="true"/>
+          <font name="Courier New" size="24" style="1"/>
+          <hideActionText value="false"/>
+          <horizontalAlignment value="0"/>
+          <horizontalTextPosition value="0"/>
+          <text value="Calculate"/>
+          <verticalAlignment value="0"/>
+          <verticalTextPosition value="0"/>
+        </properties>
+      </component>
+      <component id="2fc53" class="javax.swing.JTextArea" binding="Que">
+        <constraints>
+          <grid row="2" column="3" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="50"/>
+          </grid>
+          <gridbag weightx="1.0" weighty="0.0" ipadx="100" ipady="50"/>
+        </constraints>
+        <properties>
+          <alignmentX value="0.0"/>
+          <alignmentY value="0.0"/>
+          <autoscrolls value="false"/>
+          <background color="-1"/>
+          <disabledTextColor color="-16777216"/>
+          <font name="Courier New" size="16" style="1"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
