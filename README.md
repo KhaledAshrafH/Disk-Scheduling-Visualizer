@@ -13,12 +13,6 @@ The implemented algorithms include:
 
 Additionally, a newly optimized algorithm is implemented to provide an optimized solution for disk scheduling.
 
-
-## Prerequisites
-
-- Java Development Kit (JDK) 8 or higher
-- Apache Maven
-
 ## Usage
 
 The program accepts inputs from the command line or a file. Follow the steps below to run the program:
